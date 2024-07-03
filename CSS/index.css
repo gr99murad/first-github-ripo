@@ -1,0 +1,34 @@
+body{
+    background-image: url(../image/christin-hume-mfB1B1s4sMc-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: 50%;
+
+}
+.navbar{
+    display: flex;
+    margin: 10px;
+    padding: 15px 5px;
+    gap:50%;
+
+    
+    
+}
+
+.menu{
+    color: white;
+    justify-content: space-around;
+   
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size: 25px;
+    float: left;
+    
+}
+.menu :hover{
+    background-color: brown;
+}
